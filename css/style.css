@@ -1,0 +1,57 @@
+h1 {
+    color: teal
+}
+p > strong {
+    color: red;
+
+}
+
+span[class="destacado"]  {
+    color: orange;
+}
+h2 {
+    color: blue;
+}
+a[href="#"] {
+    color: red;
+}
+a > em {
+    color: blue;
+}
+
+a + span[class="especial"] {
+    color: purple;
+}
+
+table > caption {
+    color: blue;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:0.5em;
+} 
+
+th[class="especial"] {
+    color: orange;
+}
+
+th {
+    color:red;
+}
+td {
+    color: green;
+}
+
+td > strong {
+    color:orange;
+}
+#adicional p > a {
+    color: green;
+}
+p > #especial {
+    color:fuchsia;
+}
+div#adicional {
+    color: olive;
+}
