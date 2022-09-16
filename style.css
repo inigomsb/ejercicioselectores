@@ -1,3 +1,10 @@
+body {
+    margin: 100px;
+    padding-left: 0px;
+    padding-right: 650px;
+}
+
+
 h1 {
     color: teal
 }
@@ -26,6 +33,7 @@ a + span[class="especial"] {
 table > caption {
     color: blue;
 }
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
